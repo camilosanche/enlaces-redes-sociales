@@ -1,0 +1,143 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+a
+{
+	text-decoration: none;
+}
+body
+{
+	font-family: Arial;
+	font-size: 17px;
+	background-image:  url('../img/patron.png'), url('../img/gato3.jpg');
+	/*Posición de la primra imagen, de la segunda imagen */
+	background-position: center, center center ;	
+	background-repeat: repeat, no-repeat;
+	color:  white ;
+
+}
+ul
+{
+	list-style: none;
+}
+nav
+{
+	border-radius: 10px;
+	background-color: gray; 
+	background: -webkit-linear-gradient(top, rgb(15, 62, 116), rgb(18, 95, 177));
+	box-shadow: inset 0px 0px 20px #edf9ff;
+	height: 650px;
+	/*margin: 500px auto;*/
+	width: 120px;
+}
+
+.menu
+{
+	margin: -5px -110px;
+	padding: 0px 107px;
+}
+
+.menu ul{
+	float: left;
+	margin-top: 70px;
+	margin-right: 4px;
+	padding: 4px 10px;
+	position: relative;
+	text-align: start;
+	
+}
+.menu ul:hover{
+	background: gray;
+	background: -webkit-linear-gradient(top, #f4f4f4, #eee);
+	border: 1px solid #777;
+	border-radius:  10px 10px 10px 10px;
+	padding: 4px 9px;
+}
+
+.menu ul a{
+	color:rgb(234, 176, 92);
+	text-shadow: 3px 0px 1px black;	
+}
+
+.menu ul:hover a
+{
+	color: black;
+	text-shadow: 1px 1px 1px gray;
+}
+.menu ul:hover .caja_muestra
+{
+	display: block;
+	left: -1px;
+}
+
+.caja_muestra
+{
+	background: -webkit-linear-gradient(top, #A65901, #CC840B);
+	border: 1px solid #777;
+	border-radius: 30px 60px 200px 30px;
+	border-top: none;
+	display: none;
+	margin: -64px 128px;
+	padding: 10px 5px;
+	position: absolute;
+	text-align: -webkit-center;
+	width:300px;
+
+}
+.img
+{
+	cursor: pointer;
+}
+
+
+#titulo
+{
+	background: -webkit-linear-gradient(top, #A65901, #CC840B); ;
+	border-bottom: 10px solid black;
+	margin-bottom: 1px;
+	
+}
+
+.col
+{
+	float: left;
+	margin: 10px;
+	position: relative;
+	width: 40%;
+}
+
+.col img
+{
+	height: 100px;
+	width: 150px;
+}
+
+.flecha
+{
+	padding: 6px;
+	background: url('../img/gato3.jpg') -5px;
+	border-radius: 15px 15px 15px 15px;
+}
+
+.textoColumna{
+	background-color: (orange)
+	text-align: justify;
+	column-count: 2;
+	-webkit-column-count: 2;
+
+	column-gap: 20px;
+	-webkit-column-gap: 20px;
+
+	column-rule: 1px dotted black;
+	-webkit-column-rule: 1px dotted black;
+}
+.login{
+	column-count: 2;
+	-webkit-column-count: 2;
+}
+
+*:focus {
+    outline: 0;
+}
