@@ -1,45 +1,82 @@
 *{
+	cursor:  url('../cursor/appleblue/cursor.cur'), pointer;
 	margin: 0px;
 	padding: 0px;
+
+}
+
+article
+{
+	font-family: 'Trade Winds', cursive;
+}
+
+
+p
+{
+	cursor:  url('../cursor/appleblue/Beam.cur'), text;
+}
+
+h1
+{
+/*cursor:  url('../cursor/appleblue/Pen.cur'), text;*/
+}
+
+h2
+{
+cursor:  url('../cursor/appleblue/Beam.cur'), text;
 }
 
 a
 {
+	cursor:  url('../cursor/appleblue/Hand.cur'), hand;
 	text-decoration: none;
 }
 body
 {
-	font-family: Arial;
+	
 	font-size: 17px;
-	background-image:  url('../img/patron.png'), url('../img/gato3.jpg');
+	background-image:   url('../img/gato3.jpg');
 	/*Posición de la primra imagen, de la segunda imagen */
 	background-position: center, center center ;	
 	background-repeat: repeat, no-repeat;
 	color:  white ;
+	
+	/*font-family: 'Caesar Dressing', 'Verdana', cursive;*/
+	/*font-family: 'Indie Flower', cursive;*/
+	/*font-family: 'Indie Flower', cursive;*/
+	
+}
 
 }
 ul
 {
+	font-family: 'Geostar Fill', cursive;
 	list-style: none;
 }
 nav
 {
 	border-radius: 10px;
 	background-color: gray; 
-	background: -webkit-linear-gradient(top, rgb(15, 62, 116), rgb(18, 95, 177));
+	background: -webkit-linear-gradient(top, rgb(4, 2, 5), rgb(90, 78, 54));
 	box-shadow: inset 0px 0px 20px #edf9ff;
 	height: 650px;
 	/*margin: 500px auto;*/
-	width: 120px;
+	width: 140px;
+}
+
+img 
+{
+	cursor:  url('../cursor/appleblue/Hand.cur'), hand;
 }
 
 .menu
 {
-	margin: -5px -110px;
-	padding: 0px 107px;
+	margin: -42px 0px;
+	padding: 0px 0px;
 }
 
 .menu ul{
+
 	float: left;
 	margin-top: 70px;
 	margin-right: 4px;
@@ -57,6 +94,7 @@ nav
 }
 
 .menu ul a{
+	cursor:  url('../cursor/appleblue/Hand.cur'), hand;
 	color:rgb(234, 176, 92);
 	text-shadow: 3px 0px 1px black;	
 }
@@ -76,11 +114,11 @@ nav
 {
 	background: -webkit-linear-gradient(top, #A65901, #CC840B);
 	border: 1px solid #777;
-	border-radius: 30px 60px 200px 30px;
-	border-top: none;
+	border-radius: 15px 15px 15px 15px;
+	border-left: none;
 	display: none;
-	margin: -64px 128px;
-	padding: 10px 5px;
+    margin: -74px 140px;
+	padding: 0px 100px;
 	position: absolute;
 	text-align: -webkit-center;
 	width:300px;
@@ -88,13 +126,13 @@ nav
 }
 .img
 {
-	cursor: pointer;
+	cursor:  url('../cursor/appleblue/cursor.cur'), pointer;
 }
 
 
 #titulo
 {
-	background: -webkit-linear-gradient(top, #A65901, #CC840B); ;
+	background: -webkit-linear-gradient(top, #027CF9, #252C34); 
 	border-bottom: 10px solid black;
 	margin-bottom: 1px;
 	
@@ -102,7 +140,7 @@ nav
 
 .col
 {
-	float: left;
+	/*float: left;*/
 	margin: 10px;
 	position: relative;
 	width: 40%;
@@ -110,17 +148,57 @@ nav
 
 .col img
 {
+	position: relative;
+	/*float: right;*/
 	height: 100px;
 	width: 150px;
 }
 
-.flecha
+.titulo
 {
-	padding: 6px;
-	background: url('../img/gato3.jpg') -5px;
+	font-family: 'Joti One', cursive;
+}
+
+.facebook
+{
+	font-family: 'Joti One', cursive;
+	padding: 20px;
+	/*background: -webkit-linear-gradient(top, #A65901, #CC840B);*/
+	border-radius: 15px 15px 15px 15px;
+	/*font-family: arial;*/
+}
+
+.github
+{
+	font-family: 'Joti One', cursive;
+	padding: 33px;
+	/*background: -webkit-linear-gradient(top, #A65901, #CC840B);*/
 	border-radius: 15px 15px 15px 15px;
 }
 
+.youtube
+{
+	font-family: 'Joti One', cursive;
+	padding: 25px;
+	/*background: -webkit-linear-gradient(top, #A65901, #CC840B);*/
+	border-radius: 15px 15px 15px 15px;
+}
+
+.twitter
+{
+	font-family: 'Joti One', cursive;
+	padding: 27px;
+	/*background: -webkit-linear-gradient(top, #A65901, #CC840B);*/
+	border-radius: 15px 15px 15px 15px;
+}
+
+.instagram
+{
+	font-family: 'Joti One', cursive;
+	padding: 20px;
+	/*background: -webkit-linear-gradient(top, #A65901, #CC840B);*/
+	border-radius: 15px 15px 15px 15px;
+}
 .textoColumna{
 	background-color: (orange)
 	text-align: justify;
@@ -141,3 +219,4 @@ nav
 *:focus {
     outline: 0;
 }
+
